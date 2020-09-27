@@ -13,7 +13,7 @@ st.image("./media/coeai.png","BHUBANESWAR,ODISHA", width=70)
 st.title("Plant Disease Identification (PDI) ")
 st.header("PDI can identify twelve types of plant diseases with its causes")
 st.text("Upload a healthy or disease leaf (of apple or corn or cherry or grape) to check ")
-st.set_option('deprecation.showfileUploaderEncoding', False)
+#st.set_option('deprecation.showfileUploaderEncoding', False)
 
 uploaded_file = st.file_uploader("Choose an Image ...", type="jpg")
 
